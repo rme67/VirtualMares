@@ -1,0 +1,229 @@
+﻿@model FoxNetSoft.Plugin.Payments.PayPalPlus.Models.ConfigurationModel
+@{
+    Layout = "_ConfigurePlugin";
+}
+@inject Nop.Core.IWebHelper _webHelper
+@await Component.InvokeAsync("StoreScopeConfiguration")
+<form asp-controller="PayPalPlusSettings" asp-action="Configure" method="post">
+    <script>
+        $(document).ready(function () {
+            $("#showDebugInfo").click(toggleshowDebugInfo);
+
+            toggleshowDebugInfo();
+        });
+
+        function toggleshowDebugInfo() {
+            if ($('#showDebugInfo').is(':checked')) {
+                $('#pnlclearlogfile, #pnlgetlogfile').show();
+            }
+            else {
+                $('#pnlclearlogfile, #pnlgetlogfile').hide();
+            }
+        }
+    </script>
+
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <p>
+                    @if (Model.IsRegisted == true)
+                            {
+                        @T("Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.IsRegisted")
+                            }
+                            else
+                            {
+                        @T("Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.IsNoRegisted")
+                        <br />
+                                <a href="https://www.foxnetsoft.com/paypalplus" target="blank">@T("Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.BuyItNow")</a>
+                            }
+                </p>
+                @T("Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.Description")
+                @*<p>
+                        <b>If you're using this gateway ensure that your primary store currency is supported by Paypal.</b><br />
+                        <br />
+                        To configure plugin follow these steps:<br />
+                        1. Log into your Developer PayPal account (click <a href="https://www.paypal.com/us/webapps/mpp/referral/paypal-business-account2?partner_id =9JJPJNNPQ7PZ8\" target=\"_blank\">here</a> to create your account).<br />
+                        2. Click on My Apps & Credentials from the Dashboard.<br />
+                        3. Create new REST API app.<br />
+                        4. Copy your Client ID and Secret key below.<br />
+                        5. To be able to use recurring payments you need to set the webhook ID. You can get it manually in your PayPal account (enter the URL https://www.yourStore.com/plugins/paymentpaypalplus/webhook below REST API application credentials), or automatically by pressing "Get webhook ID" button (not visible when running the site locally).<br />
+                        <br />
+                        <b>Important.</b><br />
+                        You should connect to PayPal support and ask them to enable PayPal Plus for your PayPal account.<br />
+                        By default PayPal Plus is disabled. After speaking with you PayPal support will verify you PayPal account and verify your store. PayPal will write you when you will be able to use PayPal Plus.
+                    </p>*@
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="APIModeId_OverrideForStore" asp-input="APIModeId" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="APIModeId" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-select asp-for="APIModeId" asp-items="Model.APIModeValues" />
+                        <span asp-validation-for="APIModeId"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ClientId_OverrideForStore" asp-input="ClientId" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ClientId" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ClientId" />
+                        <span asp-validation-for="ClientId"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ClientSecret_OverrideForStore" asp-input="ClientSecret" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ClientSecret" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ClientSecret" />
+                        <span asp-validation-for="ClientSecret"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="WebhookId" />
+                    </div>
+                    <div class="col-md-9">
+                            <div class="input-group">
+                                <nop-editor asp-for="WebhookId" />
+                                <div class="input-group-btn">
+                                    <button type="submit" name="createwebhook" class="btn btn-info">
+                                        @T("Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.WebhookCreate")
+                                    </button>
+                                </div>
+                            </div>
+                        <span asp-validation-for="WebhookId"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="TransactModeId_OverrideForStore" asp-input="TransactModeId" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="TransactModeId" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-select asp-for="TransactModeId" asp-items="Model.TransactModeValues" />
+                        <span asp-validation-for="TransactModeId"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="IgnoreOrderItems_OverrideForStore" asp-input="IgnoreOrderItems" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="IgnoreOrderItems" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="IgnoreOrderItems" />
+                        <span asp-validation-for="IgnoreOrderItems"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="DescriptionTransaction_OverrideForStore" asp-input="DescriptionTransaction" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="DescriptionTransaction" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="DescriptionTransaction" />
+                        <span asp-validation-for="DescriptionTransaction"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="UseSandbox_OverrideForStore" asp-input="UseSandbox" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="UseSandbox" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="UseSandbox" />
+                        <span asp-validation-for="UseSandbox"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="AdditionalFee_OverrideForStore" asp-input="AdditionalFee" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="AdditionalFee" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="AdditionalFee" />
+                        <span asp-validation-for="AdditionalFee"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="AdditionalFeePercentage_OverrideForStore" asp-input="AdditionalFeePercentage" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="AdditionalFeePercentage" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="AdditionalFeePercentage" />
+                        <span asp-validation-for="AdditionalFeePercentage"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ShowConfirmPage_OverrideForStore" asp-input="ShowConfirmPage" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ShowConfirmPage" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ShowConfirmPage" />
+                        <span asp-validation-for="ShowConfirmPage"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="showDebugInfo" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="showDebugInfo" />
+                        <span asp-validation-for="showDebugInfo"></span>
+                        <div id="pnlclearlogfile">
+                            <a href="@Url.Action("ClearLogFile")" class="k-button">@T("Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.ClearLogFile")</a>
+                        </div>
+                        <div id="pnlgetlogfile">
+                            <a href="@Url.Action("GetLogFile")" class="k-button">@T("Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.GetLogFile")</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="StoreUrl" />
+                    </div>
+                    <div class="col-md-9">
+                        <input class="form-control text-box single-line" id="StoreUrl" name="StoreUrl" value="@Model.StoreUrl" type="text" readonly="readonly">
+                        <span asp-validation-for="StoreUrl"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="SerialNumber" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="SerialNumber" />
+                        <span asp-validation-for="SerialNumber"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-9 col-md-offset-3">
+                        <input type="submit" name="save" class="btn bg-primary" value="@T("Admin.Common.Save")" />
+                    </div>
+                </div>
+                <p>
+                    @T("Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.InstallationAndConfiguring") <a href="https://www.foxnetsoft.com/documentation-paypalplus" target="blank">http://www.foxnetsoft.com/documentation-paypalplus</a>
+                    <br />
+                    <a href="https://www.foxnetsoft.com" target="blank">www.foxnetsoft.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</form>

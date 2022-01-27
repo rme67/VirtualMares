@@ -1,0 +1,23 @@
+﻿[
+{
+    "Type": "Plugin",
+    "SupportedVersion": "4.00",
+    "DirectoryPath": "4.00/FoxNetSoft.PayPalPlus/",
+    "SystemName": "FoxNetSoft.PayPalPlus"
+  },{
+    "Type": "Plugin",
+    "SupportedVersion": "4.10",
+    "DirectoryPath": "4.10/FoxNetSoft.PayPalPlus/",
+    "SystemName": "FoxNetSoft.PayPalPlus"
+  },{
+    "Type": "Plugin",
+    "SupportedVersion": "4.20",
+    "DirectoryPath": "4.20/FoxNetSoft.PayPalPlus/",
+    "SystemName": "FoxNetSoft.PayPalPlus"
+  },{
+    "Type": "Plugin",
+    "SupportedVersion": "4.30",
+    "DirectoryPath": "4.30/FoxNetSoft.PayPalPlus/",
+    "SystemName": "FoxNetSoft.PayPalPlus"
+  }
+]

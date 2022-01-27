@@ -1,0 +1,83 @@
+﻿@model FoxNetSoft.Plugin.Payments.PayPalPlus.Models.PaymentInfoModel
+@{
+    Layout = "";
+}
+@if (Model.Warnings.Any())
+{
+    <div class="message-error">
+        <ul>
+            @foreach (var warning in Model.Warnings)
+            {
+                <li>@warning</li>
+            }
+        </ul>
+    </div>
+}
+else
+{
+    <div id="ppplus" style="width: 100%;"></div>
+    <script>
+        var paypalplus;
+        function submitpaypalplus() {
+            //terms of service
+            var termOfServiceOk = true;
+             var termsofservice = $('#termsofservice');
+             if ($('#termsofservice').length === 0)
+                 termsofservice = $('#terms-of-service');
+         if (termsofservice.length > 0 && !termsofservice.is(":hidden")) {
+                 //terms of service element exists
+                 if (!termsofservice.is(':checked')) {
+                     var readterms = $("#terms-of-service-warning-box");
+                     if (readterms.length === 0)
+                         readterms = $('#read-terms');
+                     readterms.dialog();
+                     termOfServiceOk = false;
+                 } else {
+                     termOfServiceOk = true;
+                 }
+             }
+            if (termOfServiceOk) {
+                if ($("#ppplus").length>0){
+                        PAYPAL.apps.PPP.doCheckout();
+                        return false;
+                    }
+ 	            return false;
+            } else {
+                return false;
+            }
+        }
+
+        function payPalPlusInit() {
+            $(document).ready(function () {
+                $('.payment-info-next-step-button, .confirm-order-button').hide();
+                //$('.payment-info-next-step-button, .confirm-order-button').show().prop("onclick", null).unbind().click(submitpaypalplus);
+            });
+            $(document).on('accordion_section_opened', function (data) {
+                if (data && (data.currentSectionId == 'opcpayment_methodbilling' || data.previousSectionId == 'opc-payment_info')) {
+                    $('.payment-info-next-step-button, .confirm-order-button').show();
+                }
+            });
+            paypalplus = PAYPAL.apps.PPP({
+                "approvalUrl": "@Html.Raw(Model.ApprovalUrl)",
+                "placeholder": "ppplus",
+                "mode": "@Model.Mode",
+                //"language": "de_DE",
+                //"country": "DE",
+                "language": "@Model.Language",
+                "country": "@Model.Country",
+                showPuiOnSandbox: true,
+                showLoadingIndicator: true,
+                onLoad: function() {
+                    $('#ppplus iframe').width('100%');
+                    }
+                });
+        }
+        function deferjqueryloading(method) {
+            if (window.jQuery && window.PAYPAL)
+                method();
+            else
+                setTimeout(function () { deferjqueryloading(method) }, 50);
+        }
+        deferjqueryloading(payPalPlusInit);
+    </script>
+}

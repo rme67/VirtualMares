@@ -1,0 +1,14 @@
+﻿@model FoxNetSoft.Plugin.Payments.PayPalPlus.Models.PaymentInfoModel
+@using FoxNetSoft.Plugin.Payments.PayPalPlus
+@using Nop.Web.Framework.UI
+@{
+    Layout = "";
+    if (Model.APIMode == PayPalAPIMode.Germany)
+    {
+        Html.AddScriptParts(ResourceLocation.Footer, "https://www.paypalobjects.com/webstatic/ppplus/ppplus.min.js", "", true);
+    }
+    else
+    {
+        Html.AddScriptParts(ResourceLocation.Footer, "https://www.paypalobjects.com/webstatic/ppplusdcc/ppplusdcc.min.js", "", true);
+    }
+}

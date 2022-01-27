@@ -1,0 +1,159 @@
+﻿<Language Name="English" IsRightToLeft="false">
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.showDebugInfo">
+    <Value>Enable Debugging</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.showDebugInfo.Hint">
+    <Value>Write debugging information into file. In ~/App_Data/ folder.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.SerialNumber">
+    <Value>Serial Number</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.SerialNumber.Hint">
+    <Value>Specify serial number.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.IsRegisted">
+    <Value>Registered version.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.IsNoRegisted">
+    <Value>Unregistered version is fully operational. There is only one limitation – only 100 payments.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.IsExpired">
+    <Value>Your license has expired, you should renew the license with a 50% discount.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.StoreUrl">
+    <Value>Website address (for registration)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.StoreUrl.Hint">
+    <Value>Website address (for registration).</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.ClearLogFile">
+    <Value>Clear log-file</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.GetLogFile">
+    <Value>Download log-file</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.ClientId">
+    <Value>Client ID</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.ClientId.Hint">
+    <Value>Specify client ID.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.ClientSecret">
+    <Value>Client secret</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.ClientSecret.Hint">
+    <Value>Specify secret key.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.APIMode">
+    <Value>PayPal API</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.APIMode.Hint">
+    <Value>Choose the PayPal API, PayPal Plus has its own API for each country.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.TransactMode">
+    <Value>Transaction mode</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.TransactMode.Hint">
+    <Value>Choose transaction mode.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.WebhookId">
+    <Value>Webhook ID</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.WebhookId.Hint">
+    <Value>Specify webhook ID.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.UseSandbox">
+    <Value>Use Sandbox</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.UseSandbox.Hint">
+    <Value>Check to enable Sandbox (testing environment).</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.AdditionalFee">
+    <Value>Additional fee</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.AdditionalFee.Hint">
+    <Value>Enter additional fee to charge your customers.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.ShowConfirmPage">
+    <Value>Enable 'Confirm' page</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.ShowConfirmPage.Hint">
+    <Value>Enable 'Confirm' page in nop store after payment on PayPal.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.IgnoreOrderItems">
+    <Value>Don't send order's items</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.IgnoreOrderItems.Hint">
+    <Value>Don't send order items on PayPal. Customer will not see products from the order on PayPal site, he will see only total amount.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.DescriptionTransaction">
+    <Value>Description of the transaction</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.DescriptionTransaction.Hint">
+    <Value>Description of the transaction in PayPal store. By default your customer will see this message 'NopCommerce PayPal Plus.'.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.AdditionalFeePercentage">
+    <Value>Additional fee. Use percentage</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.AdditionalFeePercentage.Hint">
+    <Value>Determines whether to apply a percentage additional fee to the order total. If not enabled, a fixed value is used.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.WebhookCreate">
+    <Value>Get webhook ID</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.WebhookError">
+    <Value>Webhook was not created (see details in the log)</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.PaymentMethodDescription">
+    <Value>Pay by PayPal, credit or debit card.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.Error.WrongConnect">
+    <Value>Error. Can't connect to PayPal.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.Error.EmptyPayPalTransactionId">
+    <Value>Error. Empty PayPal TransactionId.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.WrongReturnUrl">
+    <Value>PayPal Plus. Wrong returnURL.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.WrongPaymentID">
+    <Value>Error. Can't connect to PayPal. Wrong paymentID.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.WrongPayerID">
+    <Value>Error. PayPal. Wrong PayerID.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.ErrorExecutePayment">
+    <Value>Error. PayPal Plus. Can't execute PayPal payment.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.ErrorCreatedOrder">
+    <Value>Error. PayPal Plus. Can't create order. Please contact to support about this problem.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.Title">
+    <Value>PayPal Plus Payment</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.Refund.EmptyCaptureTransactionId">
+    <Value>Error. Can't refund online. Empty CaptureTransactionId value.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.ErrorGetPayment">
+    <Value>Error. PayPal. Can't read PayPal payment detalis.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.ErrorOrderTotal">
+    <Value>Error. Your order total was changed. Old amount = {0}, new amount = {1}.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.ErrorOrderPaymentInfo">
+    <Value>Error. PayPal. OrderPaymentInfo is null.</Value>
+  </LocaleResource>
+  <LocaleResource Name="FoxNetSoft.Plugin.Payments.PayPalPlus.WrongOrderTotal">
+    <Value>Error. Order total couldn't be calculated.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.Description">
+    <Value><![CDATA[<p><b>If you're using this gateway ensure that your primary store currency is supported by Paypal.</b><br /><br />To configure plugin follow these steps:<br />1. Log into your Developer PayPal account (click <a href="https://www.paypal.com/us/webapps/mpp/referral/paypal-business-account2?partner_id =9JJPJNNPQ7PZ8\" target=\"_blank\">here</a> to create your account).<br />2. Click on My Apps & Credentials from the Dashboard.<br />3. Create new REST API app.<br /> 4. Copy your Client ID and Secret key below.<br />5. To be able to use recurring payments you need to set the webhook ID. You can get it manually in your PayPal account (enter the URL https://www.yourStore.com/plugins/paymentpaypalplus/webhook below REST API application credentials), or automatically by pressing "Get webhook ID" button (not visible when running the site locally).<br /><br /><b>Important.</b><br />You should connect to PayPal support and ask them to enable PayPal Plus for your PayPal account.<br />By default PayPal Plus is disabled. After speaking with you PayPal support will verify you PayPal account and verify your store. PayPal will write you when you will be able to use PayPal Plus.</p>]]></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.BuyItNow">
+    <Value>Buy It Now</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.FoxNetSoft.Plugin.Payments.PayPalPlus.InstallationAndConfiguring">
+    <Value>Installation and configuring plug-in at our site</Value>
+  </LocaleResource>
+</Language>
+

@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Payment methods",
+  "FriendlyName": "PayPal Plus",
+  "SystemName": "FoxNetSoft.PayPalPlus",
+  "Version": "1.21",
+  "SupportedVersions": [ "4.20" ],
+  "Author": "FoxNetSoft",
+  "DisplayOrder": 1,
+  "FileName": "FoxNetSoft.Plugin.Payments.PayPalPlus.dll",
+  "Description": "PayPal payment plugins (Germany, Mexico, Brazil)"
+}
