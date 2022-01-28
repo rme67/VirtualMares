@@ -11179,11 +11179,11 @@
   "project": {
     "version": "4.3.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\Nop.Data.csproj",
       "projectName": "Nop.Data",
-      "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj",
+      "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\Nop.Data.csproj",
       "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\obj\\",
+      "outputPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11200,8 +11200,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-              "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+            "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+              "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj"
             }
           }
         }

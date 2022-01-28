@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+1FzIP9PO8XW4AfSNMhsug7R6cJb3bX4OpxuZgnwkIEVyNLdAsTiyp0k55yzBKbkl0gYY5oD9Jrp08V7zQq4Tw==",
+  "dgSpecHash": "YKyMR/66xWA7hoKd+qQUnRNXM1SVbwgp6wZr4ETTvFJu+8Kw9rCcDgHbYGP2kBB3XPC2X0YWuiJJ3LhVq0DW5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.ExchangeRate.EcbExchange\\Nop.Plugin.ExchangeRate.EcbExchange.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.ExchangeRate.EcbExchange\\Nop.Plugin.ExchangeRate.EcbExchange.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",

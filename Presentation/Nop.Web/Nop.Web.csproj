@@ -83,9 +83,6 @@
     </ItemGroup>
     <PropertyGroup>
       <PluginsFolders>@(PluginsFolders)</PluginsFolders>
-
-		<PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
-
     </PropertyGroup>
     <!-- Delete libraries from the shadow copy folder -->
     <Delete Files="@(ShadowCopiesLibraries)" />
@@ -120,7 +117,7 @@
       
       More details here: https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals#concurrent-garbage-collection-->
     <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
-    <UserSecretsId>847a717e-1d77-430c-9ba0-323e718fc3f9</UserSecretsId>
+    <UserSecretsId>86c452a5-861d-457d-96e7-db7ac695004a</UserSecretsId>
   </PropertyGroup>
 
 </Project>

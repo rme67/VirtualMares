@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ucbl/ST5J9xkWv3SHr+TniumMcHMj8Kztvx7S0R0AATVgnhDT4jyru6s0k9rz3QvV5xLzsfLMmxNlmwYX075vg==",
+  "dgSpecHash": "l01IPm18K3ye7R8KqMBBth9VKwS2/IUckzDwuSuJrU9Ey/0bPSkGFWjweUBUaZHXQStZATo19H7FWfocoH/dnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
