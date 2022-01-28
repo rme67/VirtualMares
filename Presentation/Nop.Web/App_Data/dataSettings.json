@@ -1,7 +1,8 @@
 ﻿{
 // "DataConnectionString": "Data Source=rmetest.database.windows.net;Initial Catalog=VirtualMares;Integrated Security=False;Persist Security Info=False;User ID=Contabilidad;Password=test.123",
 // "DataConnectionString": "Server=tcp:contaflash.database.windows.net;Initial Catalog=VirtualMares;Persist Security Info=False;User ID=Contabilidad;Password=Valepitirrin!;MultipleActiveResultets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
- "DataConnectionString": "Data Source=contaflash.database.windows.net;Initial Catalog=VirtualMares;Integrated Security=False;Persist Security Info=False;User ID=Contabilidad;Password=Valepitirrin!;", 
+ //"DataConnectionString": "Data Source=contaflash.database.windows.net;Initial Catalog=VirtualMares;Integrated Security=False;Persist Security Info=False;User ID=Contabilidad;Password=Valepitirrin!;", 
+ "DataConnectionString": "Server=tcp:contaflash.database.windows.net,1433;Initial Catalog=VirtualMares;Persist Security Info=False;User ID=Contabilidad;Password=Valepitirrin!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
  "DataProvider": "sqlserver",
   "RawDataSettings": {}
 }
