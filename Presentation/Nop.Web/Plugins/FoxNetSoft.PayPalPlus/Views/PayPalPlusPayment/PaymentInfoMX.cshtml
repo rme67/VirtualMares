@@ -1,0 +1,108 @@
+﻿@model FoxNetSoft.Plugin.Payments.PayPalPlus.Models.PaymentInfoModel
+@using FoxNetSoft.Plugin.Payments.PayPalPlus
+@{
+    Layout = "";
+}
+@if (Model.Warnings.Any())
+{
+    <div class="message-error">
+        <ul>
+            @foreach (var warning in Model.Warnings)
+            {
+                <li>@warning</li>
+            }
+        </ul>
+    </div>
+}
+else
+{
+    <div id="ppplus" style="width: 100%;"></div>
+    <script>
+        if (typeof scriptpaypalpro === 'undefined') {
+            var scriptpaypalpro;
+        }
+        var paypalplus;
+        function submitpaypalplus() {
+            if ($('#ppplus').length === 0) {
+                if (typeof scriptpaypalpro !== 'undefined' && scriptpaypalpro.length !== 0) {
+                    eval(scriptpaypalpro);
+                }
+                return true;
+            }
+            //terms of service
+            var termOfServiceOk = true;
+             var termsofservice = $('#termsofservice');
+             if ($('#termsofservice').length === 0)
+                 termsofservice = $('#terms-of-service');
+         if (termsofservice.length > 0 && !termsofservice.is(":hidden")) {
+                 //terms of service element exists
+                 if (!termsofservice.is(':checked')) {
+                     var readterms = $("#terms-of-service-warning-box");
+                     if (readterms.length === 0)
+                         readterms = $('#read-terms');
+                     readterms.dialog();
+                     termOfServiceOk = false;
+                 } else {
+                     termOfServiceOk = true;
+                 }
+             }
+            if (termOfServiceOk) {
+               paypalplus.doContinue();
+            }
+            return false;
+        }
+
+        function payPalPlusInit() {
+            if (typeof scriptpaypalpro === 'undefined') {
+                scriptpaypalpro = $('.payment-info-next-step-button').attr("onclick");
+            }
+            $(document).ready(function () {
+                $('.payment-info-next-step-button, .confirm-order-button').show().prop("onclick", null).unbind().click(submitpaypalplus);
+                $("#checkoutForm").find("button[data-complete]").show().prop("onclick", null).unbind().click(submitpaypalplus);
+            });
+            $(document).on('accordion_section_opened', function (data) {
+                if (data && (data.currentSectionId == 'opcpayment_methodbilling' || data.previousSectionId == 'opc-payment_info')) {
+                    $('.payment-info-next-step-button, .confirm-order-button').show();
+                }
+            });
+            paypalplus = PAYPAL.apps.PPP({
+                "approvalUrl": "@Html.Raw(Model.ApprovalUrl)",
+                "placeholder": "ppplus",
+                "mode": "@Model.Mode",
+                //"language": "de_DE",
+                //"country": "DE",
+                "language": "@Model.Language",
+                "country": "@Model.Country",
+                disableContinue: function () {
+                    $('.payment-info-next-step-button, .confirm-order-button').prop('disabled', true);
+                },
+                enableContinue: function () {
+                    $('.payment-info-next-step-button, .confirm-order-button').prop('disabled', false);
+                },
+                    payerEmail: '@Model.PayerEmail',
+                    payerFirstName: '@Model.PayerFirstName',
+                    payerLastName: '@Model.PayerLastName',
+                    payerPhone: '@Model.PayerPhone',
+                    payerTaxId: '@Model.PayerTaxId',
+                    hideMxDebitCards: @(Model.APIMode == PayPalAPIMode.Mexico?"true":"false"),
+                onContinue: function (rememberedCards, payerId, payment_id) {
+                        /*console.log("rememberedCards=" + rememberedCards);
+                        console.log("payerId=" + payerId);
+                    console.log("payment_id=" + payment_id);
+                    */
+                    location.href = '/paymentpaypalplus/confirmorder?paymentId=@(Model.PaymentId)&PayerID=' + payerId + '&token=' + payment_id;
+                    },
+                onLoad: function() {
+                    $('#ppplus iframe').width('100%');
+                    }
+                });
+        }
+        function deferjqueryloading(method) {
+            if (window.jQuery && window.PAYPAL)
+                method();
+            else
+                setTimeout(function () { deferjqueryloading(method) }, 50);
+        }
+        deferjqueryloading(payPalPlusInit);
+    </script>
+}

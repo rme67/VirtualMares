@@ -1,0 +1,16 @@
+﻿{
+  "Group": "Shipping rate computation",
+  "FriendlyName": "FedEx",
+  "SupportedVersions": [
+    "4.30"
+  ],
+  "Author": "nopCommerce team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Shipping.Fedex.dll",
+  "Description": "This plugin offers shipping rates by FedEx",
+  "LimitedToStores": [],
+  "LimitedToCustomerRoles": [],
+  "DependsOnSystemNames": [],
+  "SystemName": "Shipping.FedEx",
+  "Version": "1.36"
+}
