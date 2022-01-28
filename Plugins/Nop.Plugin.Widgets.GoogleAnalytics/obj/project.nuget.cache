@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WXqAeN8GoEXbslCsxEADCOeseKiiQAGj7arcGRvqaExklsMBK7plI048OG8VLKDgfHnXyXSoVdAka4+JKevo7w==",
+  "dgSpecHash": "O8OkBwkVhbdhVznNg/XPt0ISIPiIXQ6fj3E533agMO0AOaxHDqXXLJ+ewbJLemLPzR5pXmKkJFEKRRFKyXXFuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Widgets.GoogleAnalytics\\Nop.Plugin.Widgets.GoogleAnalytics.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Widgets.GoogleAnalytics\\Nop.Plugin.Widgets.GoogleAnalytics.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

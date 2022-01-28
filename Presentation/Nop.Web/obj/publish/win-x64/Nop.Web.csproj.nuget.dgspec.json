@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj": {}
+    "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+    "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "projectName": "Nop.Core",
-        "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\obj\\",
+        "outputPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -113,14 +113,14 @@
         }
       }
     },
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+    "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "projectName": "Nop.Data",
-        "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\obj\\",
+        "outputPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -137,8 +137,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
               }
             }
           }
@@ -189,7 +189,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -198,14 +198,14 @@
         }
       }
     },
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+    "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "projectName": "Nop.Services",
-        "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\obj\\",
+        "outputPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -222,11 +222,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj"
               }
             }
           }
@@ -289,7 +289,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -298,14 +298,14 @@
         }
       }
     },
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+    "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
         "projectName": "Nop.Web.Framework",
-        "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+        "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
         "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\obj\\",
+        "outputPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -322,14 +322,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj"
               },
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj"
               }
             }
           }
@@ -376,7 +376,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -385,14 +385,14 @@
         }
       }
     },
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+    "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj",
         "projectName": "Nop.Web",
-        "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj",
+        "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj",
         "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\obj\\publish\\win-x64\\",
+        "outputPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -409,17 +409,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj"
               },
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj"
               },
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
               }
             }
           }
@@ -446,15 +446,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[3.1.12, 3.1.12]"
+              "version": "[3.1.10, 3.1.10]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[3.1.12, 3.1.12]"
+              "version": "[3.1.10, 3.1.10]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[3.1.12, 3.1.12]"
+              "version": "[3.1.10, 3.1.10]"
             }
           ],
           "frameworkReferences": {
@@ -465,7 +465,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

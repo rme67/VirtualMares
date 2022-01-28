@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hE5Rd17rsfQSBO5DvBESR99qXh7YXCwhVUdu+JypEe6JP+kAF53LIqJ0FDileGEtndHQKCev2KO/YWR8Qsmrkw==",
+  "dgSpecHash": "DVMpjgascTDNTkKUwC3A/yzGyEqVNoSsHQq4HO9OddRk2dk8VoWH2Lp3YuvyNz+60rzAex4rMFBBmhfC3gGhsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Tax.FixedOrByCountryStateZip\\Nop.Plugin.Tax.FixedOrByCountryStateZip.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Tax.FixedOrByCountryStateZip\\Nop.Plugin.Tax.FixedOrByCountryStateZip.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

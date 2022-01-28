@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k/6CbpNSJkDh358AEOphS1Lxl8p8w2vHs7c914KfToL8/DGdf7gB8OJRR5HbsvLjZ+xJmfQU7jHw9Slw1kbSlg==",
+  "dgSpecHash": "IJ70sHZvoHvLnXVymwdJmCVwH2rr+kWoX6CFRFkNGKJDyphYSgtMUczPrssEyo2yeS9Q9VSjG3Fm3Ib9F2QFCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

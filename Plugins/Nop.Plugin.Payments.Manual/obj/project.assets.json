@@ -12746,11 +12746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Payments.Manual\\Nop.Plugin.Payments.Manual.csproj",
+      "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Payments.Manual\\Nop.Plugin.Payments.Manual.csproj",
       "projectName": "Nop.Plugin.Payments.Manual",
-      "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Payments.Manual\\Nop.Plugin.Payments.Manual.csproj",
+      "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Payments.Manual\\Nop.Plugin.Payments.Manual.csproj",
       "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Payments.Manual\\obj\\",
+      "outputPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Payments.Manual\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12767,8 +12767,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
-              "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+            "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+              "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
             }
           }
         }

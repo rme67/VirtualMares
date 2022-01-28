@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1tAiH/Y7Agcpw8Jklpue1m/JJqiTJKa1awnKMEDL3ag1jVEfiC/Zdijb95y6ATQviJqKZtkbzwmvqMA5mBbb/Q==",
+  "dgSpecHash": "Q46C3tTt1od0G6tPr3ihxtGrRWtUECpUjwgFUj70UW32PcLpOgqy55aaUSCGif3PWCi4DM5m2C9+1Vhpd/WYyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Tests\\Nop.Tests\\Nop.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Tests\\Nop.Tests\\Nop.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",

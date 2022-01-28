@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YbCrnn2/LU8s0kukvD492TvRBdjYZUIprj7hipf6n7DcTTN1Xcm0EQHPbgZD0yhIwrzpxPJlDLg+FbOUQIn6Bg==",
+  "dgSpecHash": "R06b/JcJp2SSmCZ5wUnfNzDKLgETZzcbtQr4pkfeNzfKmoJx5Qo3lwdWyJIqnetInCDgq9ivMGCrBCnYC/anuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Payments.PayPalStandard\\Nop.Plugin.Payments.PayPalStandard.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Payments.PayPalStandard\\Nop.Plugin.Payments.PayPalStandard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

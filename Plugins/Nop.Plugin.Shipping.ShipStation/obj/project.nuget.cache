@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gvmnKN5vJnb/5hrrNJVlTSEtRU+L8/TY+Ju2KU8bQVD8W6vhAj1KPim32D/rujKJwQ0DAzXAp91AzT9e6qZ80g==",
+  "dgSpecHash": "caN1ylWezMCDfRHPBD42V3KSjoJMXrDujBH3efFwc+qOfK+zDdNFbo1oItLLGS6goN8Ut9QKcuXQRg2B/mBp1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Shipping.ShipStation\\Nop.Plugin.Shipping.ShipStation.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Shipping.ShipStation\\Nop.Plugin.Shipping.ShipStation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

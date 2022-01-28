@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gUcikB0GEwX3sUsOY5jVuEYgMfwLVRuUBqSZXB2ATMnI90xIvj58Q+iUdft1k00g60ERmLbeF7VU31qw0uRGSQ==",
+  "dgSpecHash": "Bx1T+Q4Mr4fEbt/Ed/5fQ29+gh1A14JWo/DUgcRFFT9U0AwQtNULzMM9M2wpfsfMTyFzaxJDFvEZoZMAUCnMug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Misc.SendinBlue\\Nop.Plugin.Misc.SendinBlue.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Misc.SendinBlue\\Nop.Plugin.Misc.SendinBlue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

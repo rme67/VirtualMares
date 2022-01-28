@@ -13450,11 +13450,11 @@
   "project": {
     "version": "4.3.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Tests\\Nop.Core.Tests\\Nop.Core.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Tests\\Nop.Core.Tests\\Nop.Core.Tests.csproj",
       "projectName": "Nop.Core.Tests",
-      "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Tests\\Nop.Core.Tests\\Nop.Core.Tests.csproj",
+      "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Tests\\Nop.Core.Tests\\Nop.Core.Tests.csproj",
       "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Tests\\Nop.Core.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Tests\\Nop.Core.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13471,8 +13471,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
-              "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Tests\\Nop.Tests\\Nop.Tests.csproj"
+            "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
+              "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Tests\\Nop.Tests\\Nop.Tests.csproj"
             }
           }
         }

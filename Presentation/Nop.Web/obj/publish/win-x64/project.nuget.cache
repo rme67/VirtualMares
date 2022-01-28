@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6wtjucin5DB8wlKmkzrQMWt571E/d/FYEacRUR54nxlVtNaIGTpHLdazfPrEUh5WgLFYltju1gFOozcnzQ0Xzw==",
+  "dgSpecHash": "x2c3EZnOpJUHfzj9FPb4iQip2S4Uua1j3JTJZH6Adedo8NQvuaEOlNwhoiC5qtY9VL/fLGysEFB31wmeB+Xvig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
@@ -306,9 +306,9 @@
     "C:\\Users\\Rodo\\.nuget\\packages\\webmarkupmin.core\\2.8.1\\webmarkupmin.core.2.8.1.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\webmarkupmin.nuglify\\2.8.1\\webmarkupmin.nuglify.2.8.1.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512",
-    "C:\\Users\\Rodo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.12\\microsoft.netcore.app.runtime.win-x64.3.1.12.nupkg.sha512",
-    "C:\\Users\\Rodo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.12\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.12.nupkg.sha512",
-    "C:\\Users\\Rodo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.12\\microsoft.aspnetcore.app.runtime.win-x64.3.1.12.nupkg.sha512"
+    "C:\\Users\\Rodo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.10\\microsoft.netcore.app.runtime.win-x64.3.1.10.nupkg.sha512",
+    "C:\\Users\\Rodo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.10\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.10.nupkg.sha512",
+    "C:\\Users\\Rodo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.10\\microsoft.aspnetcore.app.runtime.win-x64.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

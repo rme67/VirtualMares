@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj": {}
+    "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+    "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "projectName": "Nop.Core",
-        "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\obj\\",
+        "outputPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,14 +108,14 @@
         }
       }
     },
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+    "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\Nop.Data.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "projectName": "Nop.Data",
-        "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\obj\\",
+        "outputPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -132,8 +132,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj"
               }
             }
           }
@@ -188,14 +188,14 @@
         }
       }
     },
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+    "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Services\\Nop.Services.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "projectName": "Nop.Services",
-        "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\obj\\",
+        "outputPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -212,11 +212,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\Nop.Data.csproj"
               }
             }
           }
@@ -283,14 +283,14 @@
         }
       }
     },
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj": {
+    "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
+        "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
         "projectName": "Nop.Plugin.Pickup.PickupInStore",
-        "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
+        "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
         "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\obj\\",
+        "outputPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -307,8 +307,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
               }
             }
           }
@@ -341,14 +341,14 @@
         }
       }
     },
-    "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+    "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
         "projectName": "Nop.Web.Framework",
-        "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+        "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
         "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\obj\\",
+        "outputPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Presentation\\Nop.Web.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -365,14 +365,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Data\\Nop.Data.csproj"
               },
-              "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {
-                "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj"
+              "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+                "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Services\\Nop.Services.csproj"
               }
             }
           }

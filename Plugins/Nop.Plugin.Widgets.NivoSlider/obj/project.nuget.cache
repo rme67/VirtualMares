@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ul3rYyPTkHQWZdwfW1ZsYI3VzC11A236HhZ88ChT/AiTJRMPXrWMVFAhwoSTvA2ZzGK97fo65bSLlJ3OXO0sgg==",
+  "dgSpecHash": "8MzA4hFDLP8uK1bN4M9cK41D+YfxPhbpep3zuPerIZceFc5pe6B/66YhaiArBhxzp2sYvKSeGeDnQ/ZjzZib8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Widgets.NivoSlider\\Nop.Plugin.Widgets.NivoSlider.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Widgets.NivoSlider\\Nop.Plugin.Widgets.NivoSlider.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

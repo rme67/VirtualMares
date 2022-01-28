@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nEd5NWpgesnyx7DXJ6Uh1whOd5r5ZY1RzY48IrFfq1D6JWSMArawhnjmF80Q2kErygksmHScEQtNP4A/q/38ew==",
+  "dgSpecHash": "2JO1STcBcC/J6DdZYcW9qAFRpZSAq36gAKpNwIh/3o79xktjmOB0Lasw6ff2R0+1CkkLdGXJKZ2F6r20DAH+eA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.DiscountRules.CustomerRoles\\Nop.Plugin.DiscountRules.CustomerRoles.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.DiscountRules.CustomerRoles\\Nop.Plugin.DiscountRules.CustomerRoles.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

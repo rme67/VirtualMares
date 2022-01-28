@@ -3,11 +3,11 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iis": {
-      "applicationUrl": "http://localhost/Carreras",
+      "applicationUrl": "http://localhost/Tienda",
       "sslPort": 0
     },
     "iisExpress": {
-      "applicationUrl": "http://localhost:15538/",
+      "applicationUrl": "http://localhost:15536/",
       "sslPort": 0
     }
   },
@@ -20,15 +20,22 @@
       }
     },
     "Nop.Web": {
-      "commandName": "IISExpress",
+      "commandName": "IIS",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:55390"
     },
+    "Tienda": {
+      "commandName": "IIS",
+      "workingDirectory": "C:\\inetpub\\wwwroot\\Tienda",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost/Tienda"
+    },
     "Carreras": {
-      "commandName": "IISExpress",
+      "commandName": "IIS",
+      "launchBrowser": true,
       "launchUrl": "http://localhost/Carreras"
     }
   }

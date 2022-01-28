@@ -9428,11 +9428,11 @@
   "project": {
     "version": "4.3.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj",
       "projectName": "Nop.Core",
-      "projectPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
+      "projectPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\Nop.Core.csproj",
       "packagesPath": "C:\\Users\\Rodo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\obj\\",
+      "outputPath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Libraries\\Nop.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rodo\\AppData\\Roaming\\NuGet\\NuGet.Config",

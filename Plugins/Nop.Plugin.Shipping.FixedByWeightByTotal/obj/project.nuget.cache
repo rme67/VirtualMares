@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2WEEBQtMderb1xeEeuiIuT6v2/KKTfv5GXSZZYVxyvsE27esFoVPzqGuSwORVyNIjwaMBGu+10+bpWHMil8hAw==",
+  "dgSpecHash": "PMFCMwp+BWAOdzfG2rKzTHBBahTOTsCkMUbfyjzJJjq23BFzDTVizSkIPn+VEZElIbbFIE2NxRUMGA21nlccKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Shipping.FixedByWeightByTotal\\Nop.Plugin.Shipping.FixedByWeightByTotal.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Shipping.FixedByWeightByTotal\\Nop.Plugin.Shipping.FixedByWeightByTotal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

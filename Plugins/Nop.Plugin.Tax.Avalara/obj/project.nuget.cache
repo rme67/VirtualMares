@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x5sHv+MrYCIjUKhyUNTSQ6ObUIsbjHCeFrbDfNKKH+8PiWTDJbCn+r3KVQFy3wxTTAX/B1pwPVkBCVBF1DtD+g==",
+  "dgSpecHash": "UN8t+suHbxXmV8GVFACw+7iZXydopz87TTRlF0C5YZn3T5n0aDpnKQj2jmYmWVDLQASs3XEzCEf7Zb1Kdufifg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodo\\Downloads\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Tax.Avalara\\Nop.Plugin.Tax.Avalara.csproj",
+  "projectFilePath": "C:\\Users\\Rodo\\source\\repos\\VirtualMares\\Plugins\\Nop.Plugin.Tax.Avalara\\Nop.Plugin.Tax.Avalara.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodo\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Rodo\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
